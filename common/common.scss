@@ -281,7 +281,7 @@ html body #main-outlet {
 
 .nav-pills:not(.user-nav) > li a.active,
 .nav-pills:not(.user-nav) > li > a {
-  border-radius: 0.5em;
+  /* border-radius: 0.5em; */
 }
 
 // Topic List
@@ -370,13 +370,13 @@ html body #main-outlet {
       .topic-list-data.posters {
         width: 10%;
         /* order: 1; */
-        /* height: auto;
+        /* height: auto; */
         display: flex;
         justify-content: center;
         align-items: center;
         a:not(.latest) {
-          display: none;
-        } */
+          /* display: none; */
+        }
       }
       .topic-list-data.posts {
         width: 10%;
@@ -563,7 +563,7 @@ html body #main-outlet {
   background: var(--secondary);
 }
 
-.sidebar-section-header-wrapper .sidebar-row {
+.sidebar-section-wrapper .sidebar-section-header-wrapper {
   align-items: flex-start;
   padding: 14px 8px;
   gap: 10px;
@@ -582,6 +582,12 @@ html body #main-outlet {
     border-bottom: 2px solid #0071eb;
     border-radius: 0px;
 }
+.nav-pills>li a:hover, .nav-pills>li button:hover{
+    background: none;
+    color: var(--primary);
+    border-bottom: 2px solid #0071eb;
+    border-radius: 0px;
+}
 #navigation-bar{
     order: 1
 }
@@ -594,4 +600,14 @@ html body #main-outlet {
 .list-controls .combo-box .combo-box-header{
     background: var(--primary-low);
     border: none;
+    text-transform: capitalize;
+}
+.topic-list button.bulk-select{
+    display: none;
+}
+.alert.alert-info {
+    background-color: var(--primary-low);
+    color: var(--primary);
+    border-radius: 8px;
+    padding: 20px 24px;
 }
