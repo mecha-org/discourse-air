@@ -370,7 +370,7 @@ html body #main-outlet {
       .topic-list-data.posters {
         width: 10%;
         /* order: 1; */
-        /* height: auto; */
+        height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -579,13 +579,13 @@ html body #main-outlet {
 .nav-pills>li a.active, .nav-pills>li button.active{
     background: none;
     color: var(--primary);
-    border-bottom: 2px solid #0071eb;
+    border-bottom: 2px solid var(--tertiary-hover);
     border-radius: 0px;
 }
 .nav-pills>li a:hover, .nav-pills>li button:hover{
     background: none;
     color: var(--primary);
-    border-bottom: 2px solid #0071eb;
+    border-bottom: 2px solid var(--tertiary-hover);
     border-radius: 0px;
 }
 #navigation-bar{
@@ -610,4 +610,12 @@ html body #main-outlet {
     color: var(--primary);
     border-radius: 8px;
     padding: 20px 24px;
+}
+.user-secondary-navigation .nav-stacked a.active{
+    background-color: var(--primary-low);
+    border-left: 2px solid var(--tertiary-hover);
+}
+.user-secondary-navigation .nav-stacked li:hover, .user-secondary-navigation .nav-stacked li.active{
+    background-color: var(--primary-low);
+    border-left: 2px solid var(--tertiary-hover);
 }
