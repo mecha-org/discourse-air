@@ -709,7 +709,10 @@ html body #main-outlet {
 .empty-state {
   padding: 0.5em 0.5em;
 }
-
+// admin setting tabs
+.admin-controls .nav-pills>li a.active{
+  background: none;
+}
 // topic map UI 
 
 
