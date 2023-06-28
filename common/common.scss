@@ -700,6 +700,18 @@ html body #main-outlet {
       float: left;
     }
   }
+
+  .custom-header-links .headerLink a{
+    font-size: var(--font-0);
+
+  }
+  .login-button .fa, .sign-up-button .fa {
+    display: none;
+  }
+}
+.btn-small {
+  font-size: var(--font-0);
+  font-weight: 600;
 }
 
 // header css
@@ -709,6 +721,20 @@ html body #main-outlet {
 .empty-state {
   padding: 0.5em 0.5em;
 }
+
+// footer 
+.custom-footer {
+  
+  background: var(--secondary);
+  .flexbox {
+    color: var(--quaternary);
+  }
+  .footer-section-link-wrapper a {
+    color: var(--primary);
+  }
+}
+
+
 // admin setting tabs
 .admin-controls .nav-pills>li a.active{
   background: none;
@@ -1030,6 +1056,7 @@ pre.codeblock-buttons:hover {
       }
     }
   }
+
   .link-summary .btn {
     color: var(--primary-med-or-secondary-high);
     background: var(--blend-primary-secondary-5);
