@@ -22,9 +22,7 @@
       "highlight": "e6cb37",
       "danger": "d05454",
       "success": "71bd9f",
-      "love": "c16ad7",
-      "btn":"18212F",
-      "btn_hover":"1D2539"
+      "love": "c16ad7"
     },
     "air-dark": {
       "primary": "e0e0e0",
@@ -36,9 +34,7 @@
       "highlight": "9a5cfd",
       "danger": "d05454",
       "success": "71bd9f",
-      "love": "c16ad7",
-      "btn":"18212F",
-      "btn_hover":"1D2539"
+      "love": "c16ad7"
     }
   }
 }
