@@ -4,7 +4,13 @@
 body {
   font-family: "Space Grotesk", Arial, sans-serif;
 }
+.btn{
+  background-color: var(--btn);
 
+}
+.btn:hover{
+  background-color: var(--btn_hover);
+}
 // custom search banner customizations
 .custom-search-banner-wrap {
   margin: 0 auto !important;
@@ -597,9 +603,15 @@ html body #main-outlet {
     order: 3
 }
 .list-controls .combo-box .combo-box-header{
-    background: var(--primary-low);
-    border: none;
     text-transform: capitalize;
+}
+#create-topic{
+  background: var(--tertiary);
+  color: var(--secondary);
+  font-weight: 600;
+  .d-icon {
+    color: var(--secondary);
+  }
 }
 .topic-list button.bulk-select{
     display: none;
@@ -700,23 +712,25 @@ html body #main-outlet {
       float: left;
     }
   }
-
-  .custom-header-links .headerLink a{
-    font-size: var(--font-0);
-
-  }
-  .login-button .fa, .sign-up-button .fa {
-    display: none;
-  }
 }
+
 .btn-small {
   font-size: var(--font-0);
   font-weight: 600;
 }
 
 // header css
-.d-header #site-logo {
-  height: 3.667em;
+.d-header {
+  .custom-header-links .headerLink a{
+    font-size: var(--font-0);
+  
+  }
+  #site-logo {
+    height: 3.667em;
+  }
+  .login-button .fa, .sign-up-button .fa {
+    display: none;
+  }
 }
 .empty-state {
   padding: 0.5em 0.5em;
@@ -724,7 +738,7 @@ html body #main-outlet {
 
 // footer 
 .custom-footer {
-  
+  // border-top: solid var(--primary);
   background: var(--secondary);
   .flexbox {
     color: var(--quaternary);
@@ -734,6 +748,10 @@ html body #main-outlet {
   }
 }
 
+// topic page
+.names span a {
+  color: var(--quaternary);
+}
 
 // admin setting tabs
 .admin-controls .nav-pills>li a.active{
