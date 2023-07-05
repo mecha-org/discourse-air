@@ -11,6 +11,9 @@
   "modifiers": {
     "serialize_topic_excerpts": true
   },
+  "assets": {
+    "icons-sprite": "/assets/my-icons.svg"
+  },
   "color_schemes": {
     "air-light": {
       "primary": "1c1c1c",
