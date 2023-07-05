@@ -1013,6 +1013,10 @@ pre.codeblock-buttons:hover {
 
 .topic-map {
   margin: 20px 0 20px var(--topic-body-width-padding);
+  h4 {
+    color: var(--primary_high);
+    text-transform: capitalize;
+  }
   .map {
     .secondary {
       text-align: center;
@@ -1020,6 +1024,7 @@ pre.codeblock-buttons:hover {
     li {
       float: left;
       padding: 7px 10px;
+      display: grid;
       &:last-of-type {
         border-right: 0;
       }
@@ -1028,7 +1033,8 @@ pre.codeblock-buttons:hover {
       }
     }
     .number {
-      color: var(--primary-high);
+      color: var(--primary);
+      order: 2;
     }
     .number,
     .d-icon {
@@ -1037,13 +1043,17 @@ pre.codeblock-buttons:hover {
     }
     button .d-icon,
     button:hover .d-icon {
-      color: var(--primary-high);
+      color: var(--primary);
     }
     .avatar a {
       float: left;
     }
     .topic-map-post {
+
       margin-top: 6px;
+      span {
+        color: var(--primary);
+      }
     }
   }
   .avatars,
@@ -1057,13 +1067,13 @@ pre.codeblock-buttons:hover {
     .btn {
       border: 0;
       padding: 0 23px;
-      color: var(--primary-med-or-secondary-high);
-      background: var(--blend-primary-secondary-5);
-      border-left: 1px solid var(--primary-low);
+      color: var(--primary);
+      background: var(--secondary);
+      border-left: 1px solid var(--secondary);
       border-top: 1px solid transparent;
       &:hover {
         color: var(--primary);
-        background: var(--primary-low);
+        background: var(--secondary);
       }
       &.collapsed {
         padding-bottom: 1px;
