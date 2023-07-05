@@ -1441,3 +1441,17 @@ span.highlighted {
     }
   }
 }
+
+// category box 
+.custom-category-boxes:not(.above-discovery-categories-outlet) .category-box {
+  background-color: var(--d-selected);
+}
+.custom-category-boxes:not(.above-discovery-categories-outlet) .category-box .category-box-inner .category-logo{
+  width: 100px;
+    height: 100px;
+}
+
+// banner
+.above-main-container-outlet.welcome-link-banner-connectors .welcome-wrapper .welcome-content p, .below-site-header-outlet.welcome-link-banner-connector .welcome-wrapper .welcome-content p {
+  color: var(--primary-high);
+}
