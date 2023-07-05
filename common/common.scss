@@ -723,6 +723,7 @@ html body #main-outlet {
 .d-header {
   .custom-header-links .headerLink a{
     font-size: var(--font-0);
+    color: var(--primary);
   
   }
   #site-logo {
@@ -1450,8 +1451,13 @@ span.highlighted {
   width: 100px;
     height: 100px;
 }
+.navigation-categories .navigation-container, .categories-list .navigation-container {
+  border-bottom: none;
+}
+
 
 // banner
 .above-main-container-outlet.welcome-link-banner-connectors .welcome-wrapper .welcome-content p, .below-site-header-outlet.welcome-link-banner-connector .welcome-wrapper .welcome-content p {
   color: var(--primary-high);
 }
+

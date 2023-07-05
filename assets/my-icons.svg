@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
 
-    <symbol id="mytheme-icon-search" width="18" height="14" viewBox="0 0 18 14" fill="none" stroke="#FAFBFC" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="mytheme-icon-bars" width="18" height="14" viewBox="0 0 18 14" fill="none" stroke="#FAFBFC" xmlns="http://www.w3.org/2000/svg">
       <!-- 
       Code inside the <svg> tag from the source SVG icon file
       this is typically everything between the <svg> tags 
@@ -13,7 +13,7 @@
 
     </symbol>
 
-    <symbol id="mytheme-icon-bars" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#FAFBFC" >
+    <symbol id="mytheme-icon-search" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#FAFBFC" >
       <!-- SVG code here. Add more <symbol> blocks as needed.
       -->
       
