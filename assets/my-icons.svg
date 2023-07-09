@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
 
-    <symbol id="mytheme-icon-bars" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="mytheme-icon-bars" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
       <!-- 
       Code inside the <svg> tag from the source SVG icon file
       this is typically everything between the <svg> tags 
       (but not the SVG tag itself, that's replaced by <symbol> above)
       You can transfer any attributes (i.e. ViewBox="0 0 0 0") to the <symbol> tag
       -->
-        <g clip-path="url(#clip0_327_134)">
         <path d="M5.00098 7.5H25.001M5.00098 15H25.001M5.00098 22.5H25.001"  stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-        </g>
-        <defs>
-        <clipPath id="clip0_327_134">
-        <rect width="30" height="30" fill="white"/>
-        </clipPath>
-        </defs>
+      
 
     </symbol>
 
