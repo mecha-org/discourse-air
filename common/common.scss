@@ -1572,7 +1572,7 @@ div[class^="category-title-header"] .category-title-contents {
     }
   }
   .third-box {
-    width: 100%;
+    width: 30%;
     display: flex;
     align-items: center;
     border-top: 1px solid rgba(var(--primary-low-rgb), 0.05);
@@ -1580,13 +1580,17 @@ div[class^="category-title-header"] .category-title-contents {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
-      justify-content: flex-end;
+      justify-content: flex-start;
       .social-link {
         margin: 20px 10px;
         display: flex;
         align-items: center;
         justify-content: center;
-
+        border-radius: 0.5rem;
+        border-width: 1px;
+        border-color: var(--primary);
+        width: 30px;
+        height: 30px;
         .d-icon {
           color: var(--secondary);
           min-width: unset;
