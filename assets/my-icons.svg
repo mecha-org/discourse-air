@@ -1,30 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
 
-    <symbol id="mytheme-icon-bars" width="18" height="14" viewBox="0 0 18 14" fill="none" stroke="#FAFBFC" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="mytheme-icon-bars" width="30" height="30" viewBox="0 0 30 30" fill="none" stroke="#FAFBFC" xmlns="http://www.w3.org/2000/svg">
       <!-- 
       Code inside the <svg> tag from the source SVG icon file
       this is typically everything between the <svg> tags 
       (but not the SVG tag itself, that's replaced by <symbol> above)
       You can transfer any attributes (i.e. ViewBox="0 0 0 0") to the <symbol> tag
       -->
-        <path d="M1 1H17M1 7H17M1 13H17"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-
+        <g clip-path="url(#clip0_327_134)">
+        <path d="M5.00098 7.5H25.001M5.00098 15H25.001M5.00098 22.5H25.001"  stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <defs>
+        <clipPath id="clip0_327_134">
+        <rect width="30" height="30" fill="white"/>
+        </clipPath>
+        </defs>
 
     </symbol>
 
-    <symbol id="mytheme-icon-search" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#FAFBFC" >
+    <symbol id="mytheme-icon-search"width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#FAFBFC" >
       <!-- SVG code here. Add more <symbol> blocks as needed.
       -->
       
-        <g clip-path="url(#clip0_287_2744)">
-        <path d="M21 21L16.6569 16.6569L16 15.899M16 15.899C17.2372 14.6364 18 12.9073 18 11C18 7.13401 14.866 4 11 4C7.13401 4 4 7.13401 4 11C4 14.866 7.13401 18 11 18C12.9587 18 14.7295 17.1955 16 15.899Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </g>
-        <defs>
-        <clipPath id="clip0_287_2744">
-        <rect width="24" height="24" fill="white"/>
-        </clipPath>
-        </defs>
+    <g clip-path="url(#clip0_327_129)">
+    <path d="M26.25 26.25L20.8211 20.8211L20 19.8737M20 19.8737C21.5465 18.2956 22.5 16.1341 22.5 13.75C22.5 8.91751 18.5825 5 13.75 5C8.91751 5 5 8.91751 5 13.75C5 18.5825 8.91751 22.5 13.75 22.5C16.1984 22.5 18.4119 21.4944 20 19.8737Z"  stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <defs>
+    <clipPath id="clip0_327_129">
+    <rect width="30" height="30" fill="white"/>
+    </clipPath>
+    </defs>
+
     </symbol>
 
 </svg>
