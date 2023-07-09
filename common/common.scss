@@ -756,17 +756,7 @@ html body #main-outlet {
   padding: 0.5em 0.5em;
 }
 
-// footer 
-.custom-footer, .custom-footer-content {
-  // border-top: solid var(--primary);
-  background: var(--secondary);
-  .flexbox {
-    color: var(--quaternary);
-  }
-  .footer-section-link-wrapper a {
-    color: var(--primary);
-  }
-}
+
 
 // topic page
 .names span a {
@@ -1696,4 +1686,16 @@ div[class^="category-title-header"] .category-title-contents {
 
 .static-login .custom-footer,.static-login .custom-footer-content {
   margin-top: 3em;
+}
+
+// footer 
+.custom-footer, .custom-footer-content {
+  // border-top: solid var(--primary);
+  background: var(--secondary);
+  .flexbox {
+    color: var(--quaternary);
+  }
+  .footer-section-link-wrapper a {
+    color: var(--primary);
+  }
 }
