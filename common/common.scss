@@ -721,10 +721,25 @@ html body #main-outlet {
 
 // header css
 .d-header {
-  .custom-header-links .headerLink a{
+  .custom-header-links .headerLink a {
     font-size: var(--font-0);
     color: var(--primary);
+
   
+  }
+  .custom-header-links .headerLink a:after {
+    content: ' ';
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='30' height='30' viewBox='0 0 30 30' fill='none' stroke='%23FAFBFC' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_327_125)'%3E%3Cpath d='M9.40909 7.5H22.5M22.5 7.5V20.5909M22.5 7.5L10.5 19.5L7.5 22.5' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_327_125'%3E%3Crect width='30' height='30' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+    background-size: 20px 20px;
+    height: 20px;
+    display: inline-block;
+    width: 20px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    position: relative;
+    top: 5px;
+    left: 1px;
   }
   #site-logo {
     height: 3.667em;
@@ -1492,10 +1507,10 @@ section.category-heading {
 }
 div[class^="category-title-header"] .category-title-contents {
   /* max-width: 1200px; */
-  padding: 1.5em 2em 2em;
+  padding: 2.25em 2em;
   text-align: left;
   width: var(--d-max-width);
-  /* width: 100%; */
+  max-width: var(--d-max-width);
   margin: 1.65em auto;
   display: flex;
   justify-content: center;
