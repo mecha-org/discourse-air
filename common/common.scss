@@ -757,7 +757,7 @@ html body #main-outlet {
 }
 
 // footer 
-.custom-footer {
+.custom-footer, .custom-footer-content {
   // border-top: solid var(--primary);
   background: var(--secondary);
   .flexbox {
@@ -1539,7 +1539,7 @@ div[class^="category-title-header"] .category-title-contents {
 
 
 // footer
-.custom-footer {
+.custom-footer, .custom-footer-content {
   display: flex;
   flex-wrap: wrap;
   background: var(--primary);
@@ -1646,7 +1646,7 @@ div[class^="category-title-header"] .category-title-contents {
 }
 
 @media screen and (max-width: $large-width) {
-  .custom-footer {
+  .custom-footer, .custom-footer-content {
     .first-box {
       max-width: 100%;
       border-bottom: 1px solid rgba(var(--primary-low-rgb), 0.05);
@@ -1677,7 +1677,7 @@ div[class^="category-title-header"] .category-title-contents {
 }
 
 @media screen and (max-width: 700px) {
-  .custom-footer {
+  .custom-footer, .custom-footer-content {
     .first-box {
       width: 100%;
     }
@@ -1694,6 +1694,6 @@ div[class^="category-title-header"] .category-title-contents {
   }
 }
 
-.static-login .custom-footer {
+.static-login .custom-footer,.static-login .custom-footer-content {
   margin-top: 3em;
 }
