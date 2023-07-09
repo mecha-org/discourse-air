@@ -1544,7 +1544,7 @@ div[class^="category-title-header"] .category-title-contents {
     padding: 2em 0 1em 0;
   }
   .first-box {
-    width: 12%;
+    width: 15%;
     .heading {
       font-size: $font-up-2;
       font-weight: bold;
@@ -1556,7 +1556,7 @@ div[class^="category-title-header"] .category-title-contents {
     }
   }
   .second-box {
-    width: 58%;
+    width: 55%;
     .links {
       display: flex;
       flex-wrap: wrap;
@@ -1593,6 +1593,9 @@ div[class^="category-title-header"] .category-title-contents {
         border: solid 1px var(--primary);
         width: 30px;
         height: 30px;
+        a:visited {
+          color: var(--primary);
+      }
         .d-icon {
           color: var(--secondary);
           min-width: unset;
