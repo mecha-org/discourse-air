@@ -343,19 +343,19 @@ html body #main-outlet {
       display: flex;
       margin-bottom: 0.5em;
       background-color: var(--secondary);
-      border-bottom: 1px solid rgba(var(--primary-rgb), 0.2);
+      // border-bottom: 1px solid rgba(var(--primary-rgb), 0.2);
       //border-radius: 1em;
       position: relative;
       transition: box-shadow 100ms ease-in-out;
       box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
       overflow: hidden;
       &.visited {
-        border-bottom: 1px solid rgba(var(--primary-rgb), 0.1);
+        // border-bottom: 1px solid rgba(var(--primary-rgb), 0.1);
         .discourse-tag {
           opacity: 0.75;
         }
         &:hover {
-          border-bottom: 1px solid rgba(var(--primary-rgb), 0.25);
+          // border-bottom: 1px solid rgba(var(--primary-rgb), 0.25);
           .discourse-tag {
             opacity: 1;
           }
@@ -364,7 +364,7 @@ html body #main-outlet {
       &:hover {
         background-color: var(--secondary);
         box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
-        border-bottom: 1px solid rgba(var(--primary-rgb), 0.3);
+        // border-bottom: 1px solid rgba(var(--primary-rgb), 0.3);
         a.title:not(.badge-notification),
         a.topic-excerpt {
           color: var(--primary) !important;
