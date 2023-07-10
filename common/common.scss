@@ -277,7 +277,7 @@ html body #main-outlet {
     margin-top: 0;
   }
   padding-bottom: 5% !important; //overriding inline style
-  @include box-shadow;
+  // @include box-shadow;
   @media screen and (max-width: 1120px) {
     width: 80%;
   }
@@ -1550,6 +1550,9 @@ div[class^="category-title-header"] .category-title-contents {
       font-weight: bold;
       margin-bottom: 0.5em;
       display: block;
+      img#site-logo {
+        margin-top: -16px;
+      }
     }
     .blurb {
       color: var(--secondary-high);
@@ -1579,6 +1582,7 @@ div[class^="category-title-header"] .category-title-contents {
     align-items: flex-start;
     gap: 15px;
     flex-direction: column;
+    padding: 2px 0;
     .social {
       display: flex;
       flex-wrap: wrap;
@@ -1608,6 +1612,9 @@ div[class^="category-title-header"] .category-title-contents {
           opacity: 1;
         }
       }
+    }
+    .footer-address{
+      margin-top: 12px;
     }
     .small-link {
       color: var(--secondary-high);
