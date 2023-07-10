@@ -1593,9 +1593,11 @@ div[class^="category-title-header"] .category-title-contents {
         border: solid 1px var(--primary);
         width: 30px;
         height: 30px;
-        a:visited {
+        color: var(--primary);
+
+        &:visited {
           color: var(--primary);
-      }
+        }
         .d-icon {
           color: var(--secondary);
           min-width: unset;
