@@ -1537,6 +1537,9 @@ div[class^="category-title-header"] .category-title-contents {
 .above-main-container-outlet.welcome-link-banner-connectors .welcome-wrapper .welcome-content, .below-site-header-outlet.welcome-link-banner-connector .welcome-wrapper .welcome-content {
   padding: 1.5em 0em 2em;
 }
+.below-site-header-outlet.welcome-link-banner-connector .welcome-link-banner-wrapper .welcome-wrapper .featured-banner-link {
+  display: none;
+}
 
 
 
@@ -1708,7 +1711,7 @@ div[class^="category-title-header"] .category-title-contents {
       display: inline-block;
       vertical-align: top;
       min-width: 50%;
-      font-size: $font-up-1;
+      font-size: $font-0;
     }
     .links {
       display: inline-block;
