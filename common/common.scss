@@ -728,7 +728,7 @@ html body #main-outlet {
   .custom-header-links .headerLink a {
     font-size: var(--font-0);
     color: var(--primary);
-
+    font-weight: 600;
   
   }
   .custom-header-links .headerLink a:after {
@@ -1023,12 +1023,24 @@ pre.codeblock-buttons:hover {
     margin-right: 2px;
   }
 }
+nav.post-controls .actions button.create .d-icon {
+  color: var(--primary-low-mid);
+}
+nav.post-controls .actions button.create {
+  color: var(--primary-low-mid);
+}
+.topic-map .map button .d-icon, .topic-map .map button:hover .d-icon {
+  color: var(--primary);
+}
 
 .topic-map {
   margin: 20px 0 20px var(--topic-body-width-padding);
   h4 {
     color: var(--primary-high);
     text-transform: capitalize;
+  }
+  h3 {
+    color: var(--primary-high);
   }
   .map {
     .secondary {
