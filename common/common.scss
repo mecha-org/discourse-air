@@ -1052,10 +1052,7 @@ nav.post-controls .actions button.create {
 
 .topic-map {
   margin: 20px 0 20px var(--topic-body-width-padding);
-  .btn.widget-button{
-    border: none;
-    background: transparent;
-  }
+  
   h4 {
     color: var(--primary-medium);
     text-transform: capitalize;
@@ -1152,6 +1149,10 @@ nav.post-controls .actions button.create {
 
   .toggle-summary .summarization-buttons .topic-strategy-summarization {
     margin-left: 10px;
+  }
+  .btn.widget-button{
+    border: none;
+    background: transparent;
   }
 }
 
@@ -1591,6 +1592,11 @@ div[class^="category-title-header"] .category-title-contents {
   }
   .first-box {
     width: 15%;
+    .svg-icon-logo {
+      margin-top: -20px;
+      margin-bottom: -20px;
+      width: 100%;
+    }
     .heading {
       font-size: $font-up-2;
       font-weight: bold;
@@ -1603,7 +1609,7 @@ div[class^="category-title-header"] .category-title-contents {
     .blurb {
       color: var(--secondary-high);
       padding: 0 20px;
-
+      font-size: 14px;
     }
   }
   .second-box {
@@ -1709,11 +1715,7 @@ div[class^="category-title-header"] .category-title-contents {
       border-bottom: 1px solid rgba(var(--primary-low-rgb), 0.05);
       margin-bottom: 1em;
       padding-bottom: 1em;
-      .svg-icon {
-        margin-top: -20px;
-        margin-bottom: -20px;
-        width: 100%;
-      }
+      
       .blurb {
         display: flex;
         align-items: center;
