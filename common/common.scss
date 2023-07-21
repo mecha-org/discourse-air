@@ -1052,6 +1052,10 @@ nav.post-controls .actions button.create {
 
 .topic-map {
   margin: 20px 0 20px var(--topic-body-width-padding);
+  .btn.widget-button{
+    border: none;
+    background: transparent;
+  }
   h4 {
     color: var(--primary-medium);
     text-transform: capitalize;
@@ -1062,11 +1066,11 @@ nav.post-controls .actions button.create {
   .topic-map-expanded{
     background: var(--primary-900);
   }
-  .map .map-collapsed {
-    background: var(--primary-very-low);
-  }
   .map {
     background: var(--primary-900);
+    .map-collapsed {
+      background: var(--primary-very-low);
+    }
     .secondary {
       text-align: center;
     }
