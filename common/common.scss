@@ -1063,11 +1063,10 @@ nav.post-controls .actions button.create {
   .topic-map-expanded{
     background: var(--primary-900);
   }
+  
   .map {
     background: var(--primary-900);
-    .map-collapsed {
-      background: var(--primary-very-low);
-    }
+    
     .secondary {
       text-align: center;
     }
@@ -1106,6 +1105,9 @@ nav.post-controls .actions button.create {
         color: var(--primary);
       }
     }
+  }
+  .map-collapsed {
+    background: var(--primary-very-low);
   }
   .avatars,
   .links,
