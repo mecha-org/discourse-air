@@ -1738,7 +1738,12 @@ div[class^="category-title-header"] .category-title-contents {
       border-bottom: 1px solid rgba(var(--primary-low-rgb), 0.05);
       margin-bottom: 1em;
       padding-bottom: 1em;
-      
+      .heading {
+       
+        img.site-logo {
+          height: 60px;
+        }
+      }
       .blurb {
         display: flex;
         align-items: center;
