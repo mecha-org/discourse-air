@@ -1544,7 +1544,8 @@ span.highlighted {
 }
 .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box .category-box-inner .category-logo{
   width: 100px;
-    height: 100px;
+  height: 100px;
+  background-color: transparent !important;
 }
 .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box .category-box-inner {
   column-gap: 28px;
