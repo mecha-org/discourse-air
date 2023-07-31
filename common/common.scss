@@ -1,9 +1,20 @@
 // font family
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700&display=swap");
+:root{
+  --d-max-width: 994px;
+}
 /* Set the font stack with fallback to Arial */
 body {
   font-family: "Space Grotesk", Arial, sans-serif;
 }
+
+// side bar
+.sidebar-section-link-wrapper .sidebar-section-link {
+  font-size: 16px;
+  height: 40px;
+  color: #F8F8F8;
+ }
+
 // .btn{
 //   background-color: var(--btn);
 
