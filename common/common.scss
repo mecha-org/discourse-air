@@ -1626,6 +1626,7 @@ div[class^="category-title-header"] .category-title-contents {
       color: var(--secondary-high);
       padding: 0 20px;
       font-size: 14px;
+      text-align: center;
     }
   }
   .second-box {
@@ -1736,6 +1737,8 @@ div[class^="category-title-header"] .category-title-contents {
         display: flex;
         align-items: center;
         font-size: 14px;
+        justify-content: center;
+        text-align: center;
       }
     }
     .third-box {
