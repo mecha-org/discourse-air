@@ -1621,6 +1621,11 @@ div[class^="category-title-header"] .category-title-contents {
       img#site-logo {
         margin-top: -16px;
       }
+      .title{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
     }
     .blurb {
       color: var(--secondary-high);
