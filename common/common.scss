@@ -1560,7 +1560,7 @@ section.category-heading {
 div[class^="category-title-header"] .category-title-contents {
   /* max-width: 1200px; */
   padding: 2.25em 2em;
-  text-align: left;
+  text-align: center;
   width: var(--d-max-width);
   max-width: var(--d-max-width);
   margin: 1.65em auto;
@@ -1596,6 +1596,7 @@ div[class^="category-title-header"] .category-title-contents {
   background: var(--primary);
   .wrap {
     box-sizing: border-box;
+    width: 100%;
   }
   .flexbox {
     width: 100%;
