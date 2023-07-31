@@ -6,7 +6,11 @@
     "https://github.com/jordanvidrine/discourse-category-group-boxes.git",
     "https://github.com/discourse/discourse-loading-slider.git",
     "https://github.com/discourse/discourse-clickable-topic.git",
-    "https://github.com/discourse/discourse-search-banner.git"
+    "https://github.com/discourse/discourse-search-banner.git",
+    "https://github.com/discourse/discourse-category-banners",
+    "https://github.com/discourse/discourse-custom-header-links.git",
+    "https://github.com/discourse/discourse-color-scheme-toggle.git",
+    "https://github.com/discourse/discourse-welcome-link-banner.git"
   ],
   "modifiers": {
     "serialize_topic_excerpts": true
