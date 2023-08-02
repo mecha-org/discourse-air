@@ -612,13 +612,14 @@ html body #main-outlet {
     border-radius: 0px;
 }
 #navigation-bar{
-    order: 1
+    order: 1;
+
 }
 .category-breadcrumb{
-    order: 2
+    order: 2;
 }
 .navigation-controls{
-    order: 3
+    order: 3;
 }
 .list-controls .combo-box .combo-box-header{
     text-transform: capitalize;
@@ -630,6 +631,9 @@ html body #main-outlet {
   .d-icon {
     color: var(--secondary);
   }
+}
+.footer-message h3{
+  font-size: var(--font-0);
 }
 .topic-list button.bulk-select{
     display: none;
@@ -1204,8 +1208,9 @@ nav.post-controls .actions button.create {
   font-weight: 500;
 }
 .suggested-topics-message {
-  font-size: var(--font-up-2);
+  font-size: var(--font-up-1);
   font-weight: 400;
+  margin-top: 1.5em;
   a{
     font-weight: 700;
   }
@@ -1547,6 +1552,12 @@ span.highlighted {
   height: 100px;
   background-color: transparent !important;
 }
+.category-logo:not(.no-logo-present)+.category-details {
+    max-height: 100px;
+    height: calc(100px - 1em);
+    padding: 0.5em !important;
+}
+
 .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box .category-box-inner {
   column-gap: 28px;
 }

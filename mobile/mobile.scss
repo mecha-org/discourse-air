@@ -52,7 +52,9 @@ html body.staff:not(.navigation-topics) #main-outlet {
 body.category .category-breadcrumb .select-kit-header,
 #navigation-bar,
 .navigation-controls {
-  margin-bottom: 0.5em !important;
+  margin-bottom: 1.5em !important;
+  margin-top: 1.5em !important;
+
 }
 
 body.category .navigation-categories .list-container,
@@ -83,7 +85,7 @@ ol.category-breadcrumb {
 }
 
 .topic-list .topic-list-data {
-  padding: 1em 1em 0 1em;
+  padding: 1em 1em 1em 1em;
   width: calc(100% - 2em);
   max-width: unset;
 }
@@ -206,4 +208,12 @@ ol.category-breadcrumb {
   .title {
     padding: 0px;
   }
+}
+
+nav.post-controls {
+  overflow-x: hidden;
+}
+
+.full-width .contents .topic-list .topic-list-header {
+  display: none;
 }
