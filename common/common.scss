@@ -1326,10 +1326,6 @@ blockquote {
 
 // variables are used to calculate the width of .gap
 .topic-body {
-  width: calc(var(--topic-body-width) + (var(--topic-body-width-padding) * 2));
-  float: left;
-  min-width: 0; // prevents some elements, like <pre>, from blowing out the width
-  position: relative;
   border-top: 1px solid var(--primary-low);
   padding: 12px 0 0 0;
   .topic-meta-data {
@@ -1349,14 +1345,14 @@ blockquote {
   }
 }
 
-.topic-avatar {
-  border-top: 1px solid var(--primary-low);
-  padding-top: 15px;
-  width: $topic-avatar-width;
-  float: left;
-  z-index: z("base") + 1;
-  height: 100%;
-}
+// .topic-avatar {
+//   border-top: 1px solid var(--primary-low);
+//   padding-top: 15px;
+//   width: $topic-avatar-width;
+//   float: left;
+//   z-index: z("base") + 1;
+//   height: 100%;
+// }
 
 .gap {
   box-sizing: border-box;
@@ -1373,6 +1369,9 @@ blockquote {
 
 /* hide the reply border above the time gap notices */
 
+#topic-progress h4 {
+  font-size: var(--font-0);
+}
 .time-gap + .topic-post .topic-body,
 .time-gap + .topic-post .topic-avatar {
   border-top: none;
@@ -1526,7 +1525,7 @@ span.highlighted {
 
 @media all and (max-width: 790px) {
   .topic-avatar {
-    width: 45px;
+    // width: 45px;
   }
   .topic-post .reply-to-tab {
     right: 15%;
